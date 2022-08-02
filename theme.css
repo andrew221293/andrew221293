@@ -9,7 +9,7 @@ html, body{
     text-align: center;
 }
 .header{
-    background-image: url(./img/hero.jpg);
+    background-image: url(./img/hero.jpeg);
     background-repeat: no-repeat;
     background-position: 50% 60%;
     background-attachment: scroll;
@@ -18,12 +18,39 @@ html, body{
     margin: 0;
     padding-top: 60vh;
 }
+.elsa{
+    position: absolute;
+    width: 20em;
+    height: 20em;
+    z-index: 0;
+    margin-top: -53px;
+    margin-right: 10px;
+    margin-left: -145px;
+}
 .heading {
     color: #ffffff;
     display: block;
     font-family: 'Caveat', cursive;
-    font-size: 6em;
+    font-size: 4em;
     font-weight: normal;
+    margin-top: -400px;
+    color: #fff;
+	text-shadow:
+		0 0 5px rgba(0,178,255,1),
+		0 0 10px rgba(0,178,255,1),
+		0 0 20px rgba(0,178,255,1),
+		0 0 40px rgba(38,104,127,1),
+		0 0 80px rgba(38,104,127,1),
+		0 0 90px rgba(38,104,127,1),
+		0 0 100px rgba(38,104,127,1),
+		0 0 140px rgba(38,104,127,1),
+		0 0 180px rgba(38,104,127,1);
+}
+.heading-party{
+    color: #fff;
+    display: block;
+    font-family: 'Caveat', cursive;
+    font-size: .8em;
     color: #fff;
 	text-shadow:
 		0 0 5px rgba(0,178,255,1),
@@ -40,7 +67,7 @@ html, body{
     color: #fff;
     display: block;
     font-family: 'Caveat', cursive;
-    font-size: .6em;
+    font-size: .5em;
     color: #fff;
 	text-shadow:
 		0 0 5px rgba(0,178,255,1),

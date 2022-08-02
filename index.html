@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>Mi Bautizo</title>
+    <title>Nuestro cumpleaños</title>
     <link rel="stylesheet" type="text/css" href="theme.css"> 
     <link rel="stylesheet" type="text/css" href="./icons/css/all.min.css"> 
     <link href="https://fonts.googleapis.com/css?family=Caveat|Quicksand&display=swap" rel="stylesheet">
@@ -10,54 +10,46 @@
   </head>
   <body>
     <header class="header">
-      <h1 class="heading">
-        Ana Victoria Romo Dorado
-        <span class="heading-subtext"> Mi Bautizo</span>
-      </h1>
+      <img class="elsa" src="./img/elsayana.png"/>
+      <h3 class="heading">
+        <span class="heading-party"> Te invitamos a festejar </span>
+        <span class="heading-party"> el cumpleaños de</span>
+        <span class="heading-subtext"> Jade cumple 5 años</span>
+        <span class="heading-subtext"> Victoria cumple 2 años</span>
+      </h3>
     </header>
-    <section class="section">
-      <p>SEÑOR HOY PRESENTAMOS ANTE TI A NUESTRA HIJA, BAÑALA CON TU AMOR Y TOMA SU PEQUEÑO CORAZÓN CON TUS BENDITAS MANOS Y CONDÚCELA
-        POR EL CAMINO CORRECTO.
-      </p>
-    </section>
     <section class="section">
       <h2 class="sub-heading">Lugar y fecha</h2>
       <div class="details">
         <i class="fas fa-calendar-check"></i>
-        <p>Sabado 18 de Junio de 2022</p>
-        <a style="color:#4F27E5; font-size: 20px;" title="Agregar al calendario" rel="noopener" href="http://www.google.com/calendar/event?action=TEMPLATE&text=Bautizo Ana Victoria&dates=20220618T130000/20220619T190000" target="_blank" rel="nofollow">Presiona Aqui para agregar al calendario</a>
-      </div>
-      <div class="details">
-        <h2 class="sub-heading">Mis Padrinos</h2>
-        <h3>Manuel Romo</h3>
-        <h3>Aida Coronado</h3>
-        <img class="resort-image" src="./img/padrinos.jpg" alt="Resort" />
-      </div>
-      <div class="details">
-        <i class="fas fa-map-marked-alt"></i>
-        <h3 class="sub-heading">Templo</h3>
-        <h3 class="details-heading">1:00 PM</h3>
-        <p><a rel="noopener" href="https://goo.gl/maps/xd9a2KvwXb35ZFq36">San Rafael Arcángel</a> Real del Valle</p>
-        <p><a style="color:#4F27E5; font-size: 20px;" rel="noopener" href="https://goo.gl/maps/xd9a2KvwXb35ZFq36">Presiona aquí para ver la ubicación</a></p>
-        <img class="resort-image" src="./img/templo.png" alt="Resort" />
+        <p>Sabado 03 de Septiembre de 2022</p>
+        <p>3:30pm</p>
+        <a style="color:#4F27E5; font-size: 20px;" title="Agregar al calendario" rel="noopener" href="http://www.google.com/calendar/event?action=TEMPLATE&text=Bautizo Ana Victoria&dates=20220903T153000/20220903T210000" target="_blank" rel="nofollow">Presiona Aqui para agregar al calendario</a>
       </div>
       <div class="details">
         <i class="fas fa-map-marked-alt"></i>
         <h3 class="sub-heading">Terraza</h3>
-        <h3 class="details-heading">3:00 PM</h3>
-        <h3 class="details-heading">NO OLVIDES TU TRAJE DE BAÑO</h3>
-        <p><a rel="noopener" href="https://goo.gl/maps/Azr4gHxF4KjpmMkT8">Fraccionamiento las carretas</a></p>
-        <p><a style="color:#4F27E5; font-size: 20px;" rel="noopener" href="https://goo.gl/maps/Azr4gHxF4KjpmMkT8">Presiona aquí para ver la ubicación</a></p>
+        <a rel="noopener" href="https://maps.app.goo.gl/Qiydsm2g35D26mbm7">LA PROVIDENCIA, TERRAZA</a>
+        <p><a style="color:#4F27E5; font-size: 20px;" rel="noopener" href="https://maps.app.goo.gl/Qiydsm2g35D26mbm7">Presiona aquí para ver la ubicación</a></p>
         <img class="resort-image" src="./img/terraza.png" alt="Resort" />
-        <img class="resort-image" src="./img/alberca.jpg" alt="Resort" />
+        <img class="resort-image" src="./img/alberca.png" alt="Resort" />
       </div>
       <div class="details">
         <h1 style="font-size: 28px;">Esperamos contar con su presencia</h1>
-        <a rel="noopener" href="https://wa.me/3314345683?text=Hola,%20Confirmo%20mi%20asistencia">
+        <h4 style="font-size: 16px;">Indispensable confirmar asistencia de tu pequeñin o tus pequeñines</h4>
+        <a rel="noopener" href="https://wa.me/3314345683?text=Hola,%20Confirmo%20mi%20asistencia,%20el%20nombre%20de%20mis%20peques%20son:%20">
           <i style="color:#4F27E5" class="fas fa-check"></i>
           <h3 style="color:#4F27E5; font-size: 20px; " class="details-heading">Presiona aqui para Confirmar asistencia</h3>
         </a>
       </div>
     </section>
+    <iframe src="music/audio.mp3" type="audio/mp3" allow="autoplay" id="audio" style="display:none"></iframe>
+    <audio controls autoplay loop id="player">
+      <source src="music/audio.mp3" type="audio/mpeg">
+          <object type="application/x-shockwave-flash" data="player.swf?miArchivo=music/audio.mp3">
+              <param name="movie" value="player.swf?miArchivo=music/audio.mp3">
+              <a href="music/audio.mp3">Descárgate aquí mi archivo de audio</a>
+          </object>
+  </audio>
   </body>
 </html>
